@@ -188,7 +188,7 @@ class Options_Interact_Function:
 
 
 
-
+system('python3 pass.conf.py')
 samay1 = Banner_Main()
 samay2 = Main_interface_frame()
 samay2.__Main_Interface_Options_Frame__()
