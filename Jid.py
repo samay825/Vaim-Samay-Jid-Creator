@@ -89,9 +89,9 @@ def Main_function_1_options():
     super_Ask_3 = int(input(r+"└─"+w+"\033[1;37mRange : "+r))
     deprint()
     for i in range(1,super_Ask_2+1):
-        with open(f'{super_ask}_{i}','w') as f:
+        with open(f'{super_ask}_{i}.txt','w') as f:
             f.write('')
-            with open(f'{super_ask}_{i}','a') as f:
+            with open(f'{super_ask}_{i}.txt','a') as f:
                 for i in range(1,super_Ask_3+1):
                     data_Send = '@s.whatsapp.net,'
                     data_1_Set = [1,2,3,4,5,6,7,8,9,10,11]
