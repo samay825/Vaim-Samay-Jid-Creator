@@ -110,7 +110,7 @@ def Main_function_1_options():
                     f.write(random_num_Set_join)
                     print(r+"└─"+w+f"\033[1;37mGenerating ---> {i} \n"+r)
             deprint()
-            print(r+" ..└─"+w+f"\033[1;37mGenerated ---> {i} in Onefile divided in Folder Samay_Random ---> {super_Ask_2} Successfully !"+r)
+            print(r+" ..└─"+w+f"\033[1;37mGenerated ---> {i} in Onefile stored in Folder Samay_Random ---> {super_Ask_2} Successfully !"+r)
             deprint()
             
 
@@ -135,7 +135,7 @@ def Main_function_2_options():
                     g.write(f'0000'+str(i)+str(data_send_Write_file))
                     print(r+"└─"+w+f"\033[1;37mGenerating ---> {i} \n"+r)
             deprint()
-            print(r+" ..└─"+w+f"\033[1;37mGenerated ---> {i} in Onefile divided in Folder Vaim_Sequence ----> {super_Ask_2} Successfully !"+r)
+            print(r+" ..└─"+w+f"\033[1;37mGenerated ---> {i} in Onefile stored in Folder Vaim_Sequence ----> {super_Ask_2} Successfully !"+r)
             deprint()
 
 
