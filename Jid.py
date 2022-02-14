@@ -183,7 +183,6 @@ class Options_Interact_Function:
             sleep(0.6)
             system('rm -rf Vaim-Samay-Jid-Creator')
             sleep(6.0)
-	    print('removed')
             system('git clone https://github.com/samay825/Vaim-Samay-Jid-Creator')
             sleep(1.5)
             system('cd Vaim-Samay-Jid-Creator')
