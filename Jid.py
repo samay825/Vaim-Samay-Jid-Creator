@@ -49,7 +49,6 @@ Disclaimer: \033[1;32mthis tool is designed for Prank
 \033[1;37m                                    
 \033[97m """
 
-system('python3 pass.conf.py')
 def banner():
     print(logo)
 
