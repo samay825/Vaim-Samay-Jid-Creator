@@ -49,7 +49,7 @@ Disclaimer: \033[1;32mthis tool is designed for Prank
 \033[1;37m                                    
 \033[97m """
 
-
+system('python3 pass.conf.py')
 def banner():
     print(logo)
 
@@ -188,7 +188,7 @@ class Options_Interact_Function:
 
 
 
-system('python3 pass.conf.py')
+
 samay1 = Banner_Main()
 samay2 = Main_interface_frame()
 samay2.__Main_Interface_Options_Frame__()
