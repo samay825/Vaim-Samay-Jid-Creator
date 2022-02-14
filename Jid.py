@@ -127,7 +127,7 @@ def Main_function_2_options():
     super_Ask_3 = int(input(r+"└─"+w+"\033[1;37mRange : "+r))
     deprint()
     for i in range(1,super_Ask_2+1):
-        with open(f'Vaim-Sequence/{super_ask}_{i}.txt','w') as f:
+        with open(f'Vaim_Sequence/{super_ask}_{i}.txt','w') as f:
             data_send_Write_file = '@s.whatsapp.net,'
             f.write('')
             with open(f'Vaim_Sequence/{super_ask}_{i}.txt','a') as g:
@@ -182,7 +182,8 @@ class Options_Interact_Function:
             system('cd ..')
             sleep(0.6)
             system('rm -rf Vaim-Samay-Jid-Creator')
-            sleep(2.0)
+            sleep(6.0)
+	    print('removed')
             system('git clone https://github.com/samay825/Vaim-Samay-Jid-Creator')
             sleep(1.5)
             system('cd Vaim-Samay-Jid-Creator')
