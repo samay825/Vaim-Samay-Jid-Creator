@@ -6,10 +6,10 @@ echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;91m     !   Vaim-Samay Up
 echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
 echo ""
 rm -rf *
-sudo git clone https://github.com/samay825/Vaim-Samay-Jid-Creator.git
+git clone https://github.com/samay825/Vaim-Samay-Jid-Creator.git
 mv Vaim-Samay-Jid-Creator/* $(pwd)
 rm -r Vaim-Samay-Jid-Creator
-sudo chmod +x *
+chmod +x *
 clear
 echo ""
 echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
