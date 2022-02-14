@@ -73,7 +73,7 @@ class Main:
         else:
             print(r+"└─"+w+"\033[1;37mPassword Incorrect !  "+r)
             sleep(3.9)
-            sys.exit()
+            system('python3 Jid.py')
 print("\n")
 user_input = input(r+"└─"+w+"\033[1;37mEnter The Password : "+r)
 print("\n")
