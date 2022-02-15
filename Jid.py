@@ -187,7 +187,7 @@ class Options_Interact_Function:
             else:
                 sys.exit()
         elif self.user_program_input==4:
-            system('python3 update.sh')
+            system('bash update.sh')
             
         elif self.user_program_input==5:
             sys.exit()
