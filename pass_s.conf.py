@@ -68,6 +68,7 @@ class Samay(Vrushabh):
             if self.user==self.samay:
                 print("\n")
                 print(r+"└─"+w+"\033[1;37mPassword Correct !"+r)
+		sleep(2.9)
                 print("\n")
                 system('clear')
                 break
