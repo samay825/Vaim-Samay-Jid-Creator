@@ -1,4 +1,4 @@
-# Python code obfuscated by www.development-tools.net 
+# scripted by samay
  
 
 import base64, codecs
